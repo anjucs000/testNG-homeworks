@@ -5,7 +5,9 @@
     <classes>
       <class name="homeWork.checkAssertions">
         <methods>
+          <include name="checkURL"/>
           <include name="checkPageSource"/>
+          <include name="navigateLoginPage"/>
         </methods>
       </class> <!-- homeWork.checkAssertions -->
     </classes>

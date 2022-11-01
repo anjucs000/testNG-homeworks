@@ -5,15 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class checkAssertions {
-
-	WebDriver driver;
+public class checkAssertions extends DriverLoading {
+	
 	@Test
 	public void checkURL() {
 		String actURL,expURL;
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\anjuc\\eclipse-workspace\\TestNGSample\\src\\main\\java\\Resources\\chromedriver.exe");
-		driver=new ChromeDriver();
-		driver.get("https://www.amazon.in/");
 		actURL=driver.getCurrentUrl();
 		expURL="https://www.amazon.in/";
 		Assert.assertEquals(actURL, expURL);
@@ -24,6 +20,9 @@ public class checkAssertions {
 		actPgSource=driver.getPageSource();
 		if(actPgSource.isEmpty()) {
 		Assert.assertFalse(false);
+		}
+		else {
+		Assert.assertTrue(true);
 		}
 	}
 	@Test
