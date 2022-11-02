@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.TestNGHomeworks.HardAssertionSample">
+      <class name="com.obsqura.selenium.TestNGHomeworks.LocatorByClassTest">
         <methods>
-          <include name="closeBrowser"/>
           <include name="openBrowser"/>
-          <include name="checkDriverNullOrNot"/>
+          <include name="locateByClass"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.TestNGHomeworks.HardAssertionSample -->
+      </class> <!-- com.obsqura.selenium.TestNGHomeworks.LocatorByClassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
