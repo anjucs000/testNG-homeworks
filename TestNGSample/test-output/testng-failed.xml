@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="homeWork.checkAssertions">
+      <class name="com.obsqura.selenium.TestNGSample.ExecSpeed">
         <methods>
-          <include name="checkURL"/>
-          <include name="checkPageSource"/>
-          <include name="navigateLoginPage"/>
+          <include name="locateByXpath"/>
+          <include name="browserClose"/>
+          <include name="initialiseBrowser"/>
         </methods>
-      </class> <!-- homeWork.checkAssertions -->
+      </class> <!-- com.obsqura.selenium.TestNGSample.ExecSpeed -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
