@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.TestNGSample.ExecSpeed">
+      <class name="com.obsqura.selenium.TestNGSample.checkField">
         <methods>
-          <include name="locateByXpath"/>
+          <include name="checkSumOfNumbers"/>
           <include name="browserClose"/>
           <include name="initialiseBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.TestNGSample.ExecSpeed -->
+      </class> <!-- com.obsqura.selenium.TestNGSample.checkField -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

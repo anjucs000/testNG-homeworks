@@ -8,11 +8,14 @@
       <include name="verifyTitle"/>
       </methods>
       </class> -->
-      <class name="com.obsqura.selenium.TestNGSample.Locators">
+     <!--  <class name="com.obsqura.selenium.TestNGSample.Locators">
       <methods>
-      <include name ="locateByName"/>
-      </methods>
-      </class>
+      <include name ="locatingByClass"/>
+      <include name ="locateClass"/>
+      <include name ="locateByCSS"/>
+      </methods> -->
+<!--       </class> -->
+<class name="com.obsqura.selenium.TestNGSample.TestObsqSite"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

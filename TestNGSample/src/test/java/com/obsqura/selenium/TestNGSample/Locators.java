@@ -13,15 +13,15 @@ public class Locators extends Base {
 	public void locatingByClass() {
 		driver.findElement(By.className("top-logo")).click();//took the classname and searched with that
 	}
-	@Test(description="Amazon locating by class")
+	@Test(priority=0)//(description="Amazon locating by class")
 	public void locateClass() {
 		driver.findElement(By.className("hm-icon-label")).click();
 	}
-	@Test
+	@Test(priority=1)
 	public void locateByName() {
 		driver.findElement(By.name("crid"));
 	}
-	@Test(description="amzone site-tag and attribute")
+	@Test(priority=2)//(description="amzone site-tag and attribute")
 	public void locateByCSS() {
 		driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']"));
 	}

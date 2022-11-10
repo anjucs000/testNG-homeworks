@@ -15,8 +15,8 @@ public class Base {
 	public void initialiseBrowser() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\anjuc\\eclipse-workspace\\JUnitSample\\src\\main\\java\\Resources\\chromedriver.exe");	
 		driver=new ChromeDriver();
-		//driver.get("https://selenium.obsqurazone.com/index.php");
-		driver.get("https://www.amazon.in/");
+		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
+		//driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize(); //to maximise the window size
 	}
 	@AfterTest
